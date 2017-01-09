@@ -14,5 +14,65 @@
  *= require_self
  */
 
+$navbar-default-bg: #0C263F;
+
 @import "bootstrap-sprockets";
 @import "bootstrap";
+
+// Nav bar
+.top-bar {
+  height: 5px;
+  background: #ED681B;
+}
+
+.navbar {
+  margin-bottom: 1px;
+}
+
+#logo {
+  float: left;
+  font-size: 1.7em;
+  color: #ED681B;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  font-weight: bold;
+}
+
+#logo:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+// footer
+footer {
+  background-color: #0C263F;
+}
+
+footer ul {
+  margin-bottom: 0;
+}
+
+// Homepage
+
+.jumbotron {
+  background: url("http://real-estate-income.com/wp-content/uploads/2016/10/Real-Estate-Agent-800x324.jpg") no-repeat 50% 0;
+  background-size: cover;
+  height: 350px;
+}
+
+.center {
+  text-align: center;
+  top: 50%;
+}
+
+.jumbotron-content {
+  color: #0C263F;
+  text-align: center;
+  overflow: auto;
+}
+
+.btn-orange {
+  background-color: #ED681B;
+  color: #0C263F;
+  margin-top: 10px;
+}
