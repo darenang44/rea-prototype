@@ -29,6 +29,10 @@ $navbar-default-bg: #0C263F;
   margin-bottom: 1px;
 }
 
+.navbar-form .form-control {
+  width: 350px;
+}
+
 #logo {
   float: left;
   font-size: 1.7em;
@@ -43,6 +47,10 @@ $navbar-default-bg: #0C263F;
   text-decoration: none;
 }
 
+.navbar-default .navbar-nav > li > a {
+  color: #ED681B;
+}
+
 // footer
 footer {
   background-color: #0C263F;
@@ -50,6 +58,10 @@ footer {
 
 footer ul {
   margin-bottom: 0;
+}
+
+.orange-links a{
+  color: #ED681B;
 }
 
 // Homepage
@@ -78,6 +90,17 @@ footer ul {
 }
 
 //states
-ul {
-  list-style: none;
+.panel-primary {
+  border-color: #0C263F;
+}
+
+.panel-primary > .panel-heading {
+  background-color: #0C263F;
+  border-color: #0C263F;
+  color: #ED681B;
+}
+
+//breadcrumbs
+.breadcrumb {
+  background-color: transparent;
 }

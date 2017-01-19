@@ -15,3 +15,10 @@
 //= require bootstrap-sprockets
 //= require turbolinks
 //= require_tree .
+
+$(document).ready(function(){
+  $("address").each(function(){
+    var embed ="<iframe width='100%' height='300' frameborder='0' style='border:2px solid orange' allowfullscreen src='https://maps.google.com/maps?&amp;q="+ encodeURIComponent( $(this).text() ) +"&amp;output=embed'></iframe>";
+    $(this).html(embed);
+  });
+});

@@ -1,77 +1,114 @@
 <%= render 'layouts/navbar' %>
+<ol class="breadcrumb">
+  <%= render_breadcrumbs :tag => :li, :separator => "" %>
+</ol>
 <div class="container">
-  <h1>Find Realtors and Agents in the Top 50 Real Estate Markets:</h1>
-  <hr>
-  <div class="row">
-    <div class="col-md-4">
-      <div>
-        <ul>
-          <li><a href="/states">Atlanta, GA Realtors and Real Estate Agents</a></li>
-          <li><a href="/states">Baltimore, MD Realtors and Real Estate Agents</a></li>
-          <li><a href="/states">Chandler, AZ Realtors and Real Estate Agents</a></li>
-          <li><a href="/states">Deer Valley, AZ Realtors and Real Estate Agents</a></li>
-          <li><a href="/states">Henderson, NV Realtors and Real Estate Agents</a></li>
-          <li><a href="/states">Lehigh Acres, FL Realtors and Real Estate Agents</a></li>
-          <li><a href="/states">Miami Beach, FL Realtors and Real Estate Agents</a></li>
-          <li><a href="/states">North Las Vegas, NV Realtors and Real Estate Agents</a></li>
-          <li><a href="/states">Orlando, FL Realtors and Real Estate Agents</a></li>
-          <li><a href="/states">Roswell-Alpharetta, GA Realtors and Real Estate Agents</a></li>
-          <li><a href="/states">San Francisco, CA Realtors and Real Estate Agents</a></li>
-          <li><a href="/states">St. Louis, MO Realtors and Real Estate Agents</a></li>
-          <li><a href="/states">Walton Beaches, FL Realtors and Real Estate Agents</a></li>
-          <li><a href="/states">Atlanta-Decatur, GA Realtors and Real Estate Agents</a></li>
-          <li><a href="/states">Boston, MA Realtors and Real Estate Agents</a></li>
-          <li><a href="/states">Charleston, SC Realtors and Real Estate Agents</a></li>
-          <li><a href="/states">Enterprise, NV Realtors and Real Estate Agents</a></li>
-        </ul>
-      </div>
-    </div>
-    <div class="col-md-4">
-      <div>
-        <ul>
-          <li><a href="/states">Honolulu, HI Realtors and Real Estate Agents</a></li>
-          <li><a href="/states">Los Angeles, CA Realtors and Real Estate Agents</a></li>
-          <li><a href="/states">Minneapolis, MN Realtors and Real Estate Agents</a></li>
-          <li><a href="/states">North Pinal, AZ Realtors and Real Estate Agents</a></li>
-          <li><a href="/states">Paradise, NV Realtors and Real Estate Agents</a></li>
-          <li><a href="/states">Round Rock-Georgetown, TX Realtors and Real Estate Agents</a></li>
-          <li><a href="/states">Scottsdale, AZ Realtors and Real Estate Agents</a></li>
-          <li><a href="/states">St. Petersburg, FL Realtors and Real Estate Agents</a></li>
-          <li><a href="/states">Washington, DC Realtors and Real Estate Agents</a></li>
-          <li><a href="/states">Austin, TX Realtors and Real Estate Agents</a></li>
-          <li><a href="/states">Boynton Beach-Delray Beach, FL Realtors and Real Estate Agents</a></li>
-          <li><a href="/states">Chicago, IL Realtors and Real Estate Agents</a></li>
-          <li><a href="/states">Gilbert, AZ Realtors and Real Estate Agents</a></li>
-          <li><a href="/states">Kendale Lakes-Tamiami, FL Realtors and Real Estate Agents</a></li>
-          <li><a href="/states">Mesa, AZ Realtors and Real Estate Agents</a></li>
-          <li><a href="/states">Nashville-Davidson, TN Realtors and Real Estate Agents</a></li>
-          <li><a href="/states">North Port, FL Realtors and Real Estate Agents</a></li>
-        </ul>
-      </div>
-    </div>
-    <div class="col-md-4">
-      <div>
-        <ul>
-          <li><a href="/states">Phoenix, AZ Realtors and Real Estate Agents</a></li>
-          <li><a href="/states">San Diego, CA Realtors and Real Estate Agents</a></li>
-          <li><a href="/states">Southwest Orange, FL Realtors and Real Estate Agents</a></li>
-          <li><a href="/states">Sunshine Parkway, FL Realtors and Real Estate Agents</a></li>
-          <li><a href="/states">Bakersfield, CA Realtors and Real Estate Agents</a></li>
-          <li><a href="/states">Cape Coral, FL Realtors and Real Estate Agents</a></li>
-          <li><a href="/states">Columbus, OH Realtors and Real Estate Agents</a></li>
-          <li><a href="/states">Grove City-Rotonda, FL Realtors and Real Estate Agents</a></li>
-          <li><a href="/states">Las Vegas, NV Realtors and Real Estate Agents</a></li>
-          <li><a href="/states">Miami, FL Realtors and Real Estate Agents</a></li>
-          <li><a href="/states">Newhall, CA Realtors and Real Estate Agents</a></li>
-          <li><a href="/states">Oceanside-Escondido, CA Realtors and Real Estate Agents</a></li>
-          <li><a href="/states">Port St. Lucie, FL Realtors and Real Estate Agents</a></li>
-          <li><a href="/states">San Fernando Valley, CA Realtors and Real Estate Agents</a></li>
-          <li><a href="/states">Spring Valley, NV Realtors and Real Estate Agents</a></li>
-          <li><a href="/states">Tampa, FL Realtors and Real Estate Agents</a></li>
-        </ul>
-      </div>
-    </div>
+  <div class="panel panel-primary">
+    <div class="panel-heading">Find A Realtor or Real Estate Agent by Top 50 Metro:</div>
+    <table class="table table-bordered">
+      <tbody>
+        <tr>
+          <td><a href="#">New York-Newark-Jersey City, NY-NJ Realtors and Real Estate Agents</a></td>
+          <td><a href="#">Los Angeles-Long Beach-Anaheim, CA Realtors and Real Estate Agents</a></td>
+        </tr>
+        <tr>
+          <td><a href="#">Chicago-Naperville-Elgin, IL-IN-WI Realtors and Real Estate Agents</a></td>
+          <td><a href="#">Dallas-Fort Worth-Arlington, TX Realtors and Real Estate Agents</a></td>
+        </tr>
+        <tr>
+          <td><a href="#">Houston-The Woodlands-Sugar Land, TX Realtors and Real Estate Agents</a></td>
+          <td><a href="#">Washington-Arlington-Alexandria, DC-VA-MD-WV Realtors and Real Estate Agents</a></td>
+        </tr>
+        <tr>
+          <td><a href="#">Philadelphia-Camden-Wilmington, PA-NJ-DE-MD Realtors and Real Estate Agents</a></td>
+          <td><a href="#">Miami-Fort Lauderdale-West Palm Beach, FL Realtors and Real Estate Agents</a></td>
+        </tr>
+        <tr>
+          <td><a href="#">Atlanta-Sandy Springs-Roswell, GA Realtors and Real Estate Agents</a></td>
+          <td><a href="#">Boston-Cambridge-Newton, MA-NH Realtors and Real Estate Agents</a></td>
+        </tr>
+        <tr>
+          <td><a href="#">San Francisco–Oakland–Hayward, CA Realtors and Real Estate Agents</a></td>
+          <td><a href="#">Phoenix-Mesa-Scottsdale, AZ Realtors and Real Estate Agents</a></td>
+        </tr>
+        <tr>
+          <td><a href="#">Riverside-San Bernardino-Ontario, CA Realtors and Real Estate Agents</a></td>
+          <td><a href="#">Detroit-Warren-Dearborn, MI Realtors and Real Estate Agents</a></td>
+        </tr>
+        <tr>
+          <td><a href="#">Seattle-Tacoma-Bellevue, WA Realtors and Real Estate Agents</a></td>
+          <td><a href="#">Minneapolis-St. Paul-Bloomington, MN Realtors and Real Estate Agents</a></td>
+        </tr>
+        <tr>
+          <td><a href="#">San Diego-Carlsbad, CA Realtors and Real Estate Agents</a></td>
+          <td><a href="#">Tampa-St. Petersburg-Clearwater, FL Realtors and Real Estate Agents</a></td>
+        </tr>
+        <tr>
+          <td><a href="#">Denver-Aurora-Lakewood, CO Realtors and Real Estate Agents</a></td>
+          <td><a href="#">Buffalo-Cheektowaga-Niagara Falls, NY Realtors and Real Estate Agents</a></td>
+        </tr>
+        <tr>
+          <td><a href="#">St. Louis, MO Realtors and Real Estate Agents</a></td>
+          <td><a href="#">Baltimore-Columbia-Towson, MD Realtors and Real Estate Agents</a></td>
+        </tr>
+        <tr>
+          <td><a href="#">Charlotte-Concord-Gastonia, NC-SC Realtors and Real Estate Agents</a></td>
+          <td><a href="#">Portland-Vancouver-Hillsboro, OR-WA Realtors and Real Estate Agents</a></td>
+        </tr>
+        <tr>
+          <td><a href="#">Orlando-Kissimmee-Sanford, FL Realtors and Real Estate Agents</a></td>
+          <td><a href="#">San Antonio-New Braunfels, TX Realtors and Real Estate Agents</a></td>
+        </tr>
+        <tr>
+          <td><a href="#">Pittsburgh, PA Realtors and Real Estate Agents</a></td>
+          <td><a href="#">Sacramento–Roseville, CA Realtors and Real Estate Agents</a></td>
+        </tr>
+        <tr>
+          <td><a href="#">Cincinnati, OH Realtors and Real Estate Agents</a></td>
+          <td><a href="#">Las Vegas-Henderson-Paradise, NV Realtors and Real Estate Agents</a></td>
+        </tr>
+        <tr>
+          <td><a href="#">Kansas City, MO-KS Realtors and Real Estate Agents</a></td>
+          <td><a href="#">Cleveland, OH Realtors and Real Estate Agents</a></td>
+        </tr>
+        <tr>
+          <td><a href="#">Columbus, OH Realtors and Real Estate Agents</a></td>
+          <td><a href="#">Austin-Round Rock, TX Realtors and Real Estate Agents</a></td>
+        </tr>
+        <tr>
+          <td><a href="#">Indianapolis-Carmel-Anderson, IN Realtors and Real Estate Agents</a></td>
+          <td><a href="#">San Jose-Sunnyvale-Santa Clara, CA Realtors and Real Estate Agents</a></td>
+        </tr>
+        <tr>
+          <td><a href="#">Nashville-Davidson–Franklin, TN Realtors and Real Estate Agents</a></td>
+          <td><a href="#">Virginia Beach-Norfolk-Newport News, VA Realtors and Real Estate Agents</a></td>
+        </tr>
+        <tr>
+          <td><a href="#">Providence-Warwick, RI-MA Realtors and Real Estate Agents</a></td>
+          <td><a href="#">Milwaukee-Waukesha, WI Realtors and Real Estate Agents</a></td>
+        </tr>
+        <tr>
+          <td><a href="#">Jacksonville, FL Realtors and Real Estate Agents</a></td>
+          <td><a href="#">Oklahoma City, OK Realtors and Real Estate Agents</a></td>
+        </tr>
+        <tr>
+          <td><a href="#">Memphis, TN Realtors and Real Estate Agents</a></td>
+          <td><a href="#">Louisville, KY Realtors and Real Estate Agents</a></td>
+        </tr>
+        <tr>
+          <td><a href="#">Raleigh, NC Realtors and Real Estate Agents</a></td>
+          <td><a href="#">Richmond, VA Realtors and Real Estate Agents</a></td>
+        </tr>
+        <tr>
+          <td><a href="#">New Orleans-Metairie, LA Realtors and Real Estate Agents</a></td>
+          <td><a href="#">Hartford-West Hartford-East Hartford, CT Realtors and Real Estate Agents</a></td>
+        </tr>
+        <tr>
+          <td><a href="#">Salt Lake City, UT Realtors and Real Estate Agents</a></td>
+          <td><a href="#">Birmingham-Hoover, AL Realtors and Real Estate Agents</a></td>
+        </tr>
+      </tbody>
+    </table>
   </div>
-  <hr>
 </div>
 <%= render 'layouts/footer' %>

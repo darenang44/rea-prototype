@@ -1,78 +1,99 @@
 <%= render 'layouts/navbar' %>
+<ol class="breadcrumb">
+  <%= render_breadcrumbs :tag => :li, :separator => "" %>
+</ol>
 <div class="container">
-  <h1>Find A Realtor or A Real Estate Agent by States:</h1>
-  <hr>
-  <div class="row">
-    <div class="col-md-4">
-      <div>
-        <ul>
-          <li><a href="/states">Alabama Realtors and Real Estate Agents</a></li>
-          <li><a href="/states">Alaska Realtors and Real Estate Agents</a></li>
-          <li><a href="/states">Arizona Realtors and Real Estate Agents</a></li>
-          <li><a href="/states">Arkansas Realtors and Real Estate Agents</a></li>
-          <li><a href="/states">California Realtors and Real Estate Agents</a></li>
-          <li><a href="/states">Colorado Realtors and Real Estate Agents</a></li>
-          <li><a href="/states">Connecticut Realtors and Real Estate Agents</a></li>
-          <li><a href="/states">D.C. Realtors and Real Estate Agents</a></li>
-          <li><a href="/states">Delaware Realtors and Real Estate Agents</a></li>
-          <li><a href="/states">Florida Realtors and Real Estate Agents</a></li>
-          <li><a href="/states">Georgia Realtors and Real Estate Agents</a></li>
-          <li><a href="/states">Hawaii Realtors and Real Estate Agents</a></li>
-          <li><a href="/states">Idaho Realtors and Real Estate Agents</a></li>
-          <li><a href="/states">Illinois Realtors and Real Estate Agents</a></li>
-          <li><a href="/states">Indiana Realtors and Real Estate Agents</a></li>
-          <li><a href="/states">Iowa Realtors and Real Estate Agents</a></li>
-          <li><a href="/states">Kansas Realtors and Real Estate Agents</a></li>
-        </ul>
-      </div>
-    </div>
-    <div class="col-md-4">
-      <div>
-        <ul>
-          <li><a href="/states">Kentucky Realtors and Real Estate Agents</a></li>
-          <li><a href="/states">Louisiana Realtors and Real Estate Agents</a></li>
-          <li><a href="/states">Maine Realtors and Real Estate Agents</a></li>
-          <li><a href="/states">Maryland Realtors and Real Estate Agents</a></li>
-          <li><a href="/states">Massachusetts Realtors and Real Estate Agents</a></li>
-          <li><a href="/states">Michigan Realtors and Real Estate Agents</a></li>
-          <li><a href="/states">Minnesota Realtors and Real Estate Agents</a></li>
-          <li><a href="/states">Mississippi Realtors and Real Estate Agents</a></li>
-          <li><a href="/states">Missouri Realtors and Real Estate Agents</a></li>
-          <li><a href="/states">Montana Realtors and Real Estate Agents</a></li>
-          <li><a href="/states">Nebraska Realtors and Real Estate Agents</a></li>
-          <li><a href="/states">Nevada Realtors and Real Estate Agents</a></li>
-          <li><a href="/states">New Hampshire Realtors and Real Estate Agents</a></li>
-          <li><a href="/states">New Jersey Realtors and Real Estate Agents</a></li>
-          <li><a href="/states">New Mexico Realtors and Real Estate Agents</a></li>
-          <li><a href="/states">New York Realtors and Real Estate Agents</a></li>
-          <li><a href="/states">North Carolina Realtors and Real Estate Agents</a></li>
-        </ul>
-      </div>
-    </div>
-    <div class="col-md-4">
-      <div>
-        <ul>
-          <li><a href="/states">North Dakota Realtors and Real Estate Agents</a></li>
-          <li><a href="/states">Ohio Realtors and Real Estate Agents</a></li>
-          <li><a href="/states">Oklahoma Realtors and Real Estate Agents</a></li>
-          <li><a href="/states">Oregon Realtors and Real Estate Agents</a></li>
-          <li><a href="/states">Pennsylvania Realtors and Real Estate Agents</a></li>
-          <li><a href="/states">Rhode Island Realtors and Real Estate Agents</a></li>
-          <li><a href="/states">South Carolina Realtors and Real Estate Agents</a></li>
-          <li><a href="/states">South Dakota Realtors and Real Estate Agents</a></li>
-          <li><a href="/states">Tennessee Realtors and Real Estate Agents</a></li>
-          <li><a href="/states">Texas Realtors and Real Estate Agents</a></li>
-          <li><a href="/states">Utah Realtors and Real Estate Agents</a></li>
-          <li><a href="/states">Vermont Realtors and Real Estate Agents</a></li>
-          <li><a href="/states">Virginia Realtors and Real Estate Agents</a></li>
-          <li><a href="/states">Washington Realtors and Real Estate Agents</a></li>
-          <li><a href="/states">West Virginia Realtors and Real Estate Agents</a></li>
-          <li><a href="/states">Wisconsin Realtors and Real Estate Agents</a></li>
-          <li><a href="/states">Wyoming Realtors and Real Estate Agents</a></li>
-        </ul>
-      </div>
-    </div>
-  </div>
-  <hr>
-</div>
+     <div class="panel panel-primary">
+       <div class="panel-heading">Find A Realtor or Real Estate Agent by State:</div>
+       <table class="table table-bordered">
+         <tbody>
+           <tr>
+             <td class="text-center"><a href="#"><a href="#">Alabama Realtors and Real Estate Agents</a></a></td>
+             <td class="text-center"><a href="#">Alaska Realtors and Real Estate Agents</a></td>
+             <td class="text-center"><a href="#">Arizona Realtors and Real Estate Agents</a></td>
+           </tr>
+           <tr>
+             <td class="text-center"><a href="#">Arkansas Realtors and Real Estate Agents</a></td>
+             <td class="text-center"><a href="#">California Realtors and Real Estate Agents</a></td>
+             <td class="text-center"><a href="#">Colorado Realtors and Real Estate Agents</a></td>
+           </tr>
+           <tr>
+             <td class="text-center"><a href="#">Connecticut Realtors and Real Estate Agents</a></td>
+             <td class="text-center"><a href="#">D.C. Realtors and Real Estate Agents</a></td>
+             <td class="text-center"><a href="#">Delaware Realtors and Real Estate Agents</a></td>
+           </tr>
+           <tr>
+             <td class="text-center"><a href="#">Florida Realtors and Real Estate Agents</a></td>
+             <td class="text-center"><a href="#">Georgia Realtors and Real Estate Agents</a></td>
+             <td class="text-center"><a href="#">Hawaii Realtors and Real Estate Agents</a></td>
+           </tr>
+           <tr>
+             <td class="text-center"><a href="#">Idaho Realtors and Real Estate Agents</a></td>
+             <td class="text-center"><a href="#">Illinois Realtors and Real Estate Agents</a></td>
+             <td class="text-center"><a href="#">Indiana Realtors and Real Estate Agents</a></td>
+           </tr>
+           <tr>
+             <td class="text-center"><a href="#">Iowa Realtors and Real Estate Agents</a></td>
+             <td class="text-center"><a href="#">Kansas Realtors and Real Estate Agents</a></td>
+             <td class="text-center"><a href="#">Kentucky Realtors and Real Estate Agents</a></td>
+           </tr>
+           <tr>
+             <td class="text-center"><a href="#">Louisiana Realtors and Real Estate Agents</a></td>
+             <td class="text-center"><a href="#">Maine Realtors and Real Estate Agents</a></td>
+             <td class="text-center"><a href="#">Maryland Realtors and Real Estate Agents</a></td>
+           </tr>
+           <tr>
+             <td class="text-center"><a href="#">Massachusetts Realtors and Real Estate Agents</a></td>
+             <td class="text-center"><a href="#">Michigan Realtors and Real Estate Agents</a></td>
+             <td class="text-center"><a href="#">Minnesota Realtors and Real Estate Agents</a></td>
+           </tr>
+           <tr>
+             <td class="text-center"><a href="#">Mississippi Realtors and Real Estate Agents</a></td>
+             <td class="text-center"><a href="#">Missouri Realtors and Real Estate Agents</a></td>
+             <td class="text-center"><a href="#">Montana Realtors and Real Estate Agents</a></td>
+           </tr>
+           <tr>
+             <td class="text-center"><a href="#">Nebraska Realtors and Real Estate Agents</a></td>
+             <td class="text-center"><a href="#">Nevada Realtors and Real Estate Agents</a></td>
+             <td class="text-center"><a href="#">New Hampshire Realtors and Real Estate Agents</a></td>
+           </tr>
+           <tr>
+             <td class="text-center"><a href="#">New Jersey Realtors and Real Estate Agents</a></td>
+             <td class="text-center"><a href="#">New Mexico Realtors and Real Estate Agents</a></td>
+             <td class="text-center"><a href="#">New York Realtors and Real Estate Agents</a></td>
+           </tr>
+           <tr>
+             <td class="text-center"><a href="#">North Carolina Realtors and Real Estate Agents</a></td>
+             <td class="text-center"><a href="#">North Dakota Realtors and Real Estate Agents</a></td>
+             <td class="text-center"><a href="#">Ohio Realtors and Real Estate Agents</a></td>
+           </tr>
+           <tr>
+             <td class="text-center"><a href="#">Oklahoma Realtors and Real Estate Agents</a></td>
+             <td class="text-center"><a href="#">Oregon Realtors and Real Estate Agents</a></td>
+             <td class="text-center"><a href="#">Pennsylvania Realtors and Real Estate Agents</a></td>
+           </tr>
+           <tr>
+             <td class="text-center"><a href="#">Rhode Island Realtors and Real Estate Agents</a></td>
+             <td class="text-center"><a href="#">South Carolina Realtors and Real Estate Agents</a></td>
+             <td class="text-center"><a href="#">South Dakota Realtors and Real Estate Agents</a></td>
+           </tr>
+           <tr>
+             <td class="text-center"><a href="#">Tennessee Realtors and Real Estate Agents</a></td>
+             <td class="text-center"><a href="#">Texas Realtors and Real Estate Agents</a></td>
+             <td class="text-center"><a href="#">Utah Realtors and Real Estate Agents</a></td>
+           </tr>
+           <tr>
+             <td class="text-center"><a href="#">Vermont Realtors and Real Estate Agents</a></td>
+             <td class="text-center"><a href="#">Virginia Realtors and Real Estate Agents</a></td>
+             <td class="text-center"><a href="#">Washington Realtors and Real Estate Agents</a></td>
+           </tr>
+           <tr>
+             <td class="text-center"><a href="#">West Virginia Realtors and Real Estate Agents</a></td>
+             <td class="text-center"><a href="#">Wisconsin Realtors and Real Estate Agents</a></td>
+             <td class="text-center"><a href="#">Wyoming Realtors and Real Estate Agents</a></td>
+           </tr>
+         </tbody>
+       </table>
+     </div>
+   </div>
 <%= render 'layouts/footer' %>
